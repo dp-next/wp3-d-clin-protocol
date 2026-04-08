@@ -1,0 +1,31 @@
+---
+title: "Flowchart"
+format: html
+editor: visual
+---
+
+## Recruitment plan
+
+We will invite 30,000 adults aged 40–50 years to answer a baseline questionnaire. We expect approximately 5,000 of those who respond will have HbA1c-defined prediabetes. A subset of this prediabetic population will be invited to participate in a clinical trial, with a target enrollment of 1,050 participants.
+
+## Flowchart
+
+```{mermaid}
+
+flowchart TB
+    A["Invited to answer the questionaire<br>N = ?"] ---> B["Answered the questionaire<br>N = ?"]
+    A --> n6["Did not respond:<br>N = ?"]
+    B -- |HbA1c &lt;42 mmol/mol| ---> D["Normal Glycemia<br>N = ?"]
+    B -- "|HbA1c 42-47 mmol/mol|" ---> n2["Prediabetes<br>N = ?"]
+    n2 --> n3["Consented to be contacted<br>N = ?"] & n7["Did not consent to be contacted<br>N = ?"]
+    n3 --> n4["Invited to the clinical trial<br>N = ?"]
+    n4 --> n5["Enrolled in the core protocol<br>N = ?"]
+
+    A@{ shape: rounded}
+    B@{ shape: rounded}
+    D@{ shape: rounded}
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
+    n4@{ shape: rounded}
+    n5@{ shape: rounded}
+```
