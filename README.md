@@ -1,11 +1,6 @@
 # wp3-d-clin-protocol: Protocol for data collection for WP3 of the DP-Next project
 
-<!-- TODO: Add description of project -->
-
-> [!TIP]
-> This website repository was generated from the
-> [`template-website`](https://github.com/seedcase-project/template-website)
-> Seedcase template :tada:
+for the data collection protocol, including info materials, the clinical report forms, SOPs, training materials, local add-on or extended protocols, QC etc
 
 
 ## Project files and folders
