@@ -5,13 +5,13 @@ format:
 ---
 
 ::: cover-page
-![](dp-next-logo.png){width="250px"}
+![](images/dp-next-logo.png)
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Study name:** | Sustainable Type 2 Diabetes Prevention for the 21st Century |
-| **Short name:** | DP-NEXT |
-| **SOP title:** | SOP Template - Data Collection in DP-NEXT |
+| **Short name:** | DP-Next |
+| **SOP title:** | SOP Template - Data Collection in DP-Next |
 | **SOP short title:** | Template |
 | **SOP Version:** | 1 |
 | Authored by | Mikkel Steentoft |
